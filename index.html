@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principais Tags HTML</title>
+  <meta name="description" content="Um guia completo de estudo sobre as principais tags HTML, com exemplos e explicações.">
+  <meta name="keywords" content="HTML, tags HTML, estudo de HTML, blog HTML, tutorial HTML">
+  <meta name="author" content="Romeu Soarees de Souto">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Explorando as Tags HTML</h1>
+    <nav>
+      <ul>
+        <li><a href="#titulos">Títulos (h1-h6)</a></li>
+        <li><a href="#paragrafos">Parágrafos e textos</a></li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#linha-horizontal">Linha Horizontal</a></li>
+        <li><a href="#subsup">Sub e Sup</a></li>
+        <li><a href="#citacoes">Citações</a></li>
+        <li><a href="#estrutura">Estrutura Principal</a></li>
+        <li><a href="#midia">Tags de Mídia</a></li>
+        <li><a href="#extras">Outras Tags</a></li>
+        <li><a href="#referencias">Referência</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section id="titulos">
+    <h2>Títulos com &lt;h1&gt; até &lt;h6&gt;</h2>
+        <article>
+            <p>As tags de título, que vão de <strong>&lt;h1&gt;</strong> 
+            até <strong>&lt;h6&gt;</strong>, são utilizadas para definir a 
+            hierarquia de informações em uma página HTML. O <strong>&lt;h1&gt;</strong> 
+            representa o título mais importante (geralmente o título principal da página), 
+            enquanto o <strong>&lt;h6&gt;</strong> é o menos importante, usado para 
+            subtítulos ou observações de menor destaque. Essa hierarquia ajuda na 
+            organização do conteúdo e também melhora a acessibilidade e o SEO 
+            (otimização para mecanismos de busca).
+            </p>
+
+            <h1>Título Principal - h1</h1>
+            <h2>Subtítulo - h2</h2>
+            <h3>Seção - h3</h3>
+            <h4>Subseção - h4</h4>
+            <h5>Detalhe - h5</h5>
+            <h6>Nota de rodapé - h6</h6>
+
+            <p>Essas tags organizam a hierarquia de títulos em uma página HTML.</p>
+        </article>
+    </section>
+
+    <br/>
+
+    <section id="paragrafos">
+        <h2>Textos e Parágrafos</h2>
+        <article>
+            <p>As tags de texto em HTML permitem estruturar, destacar e 
+                complementar informações dentro de um parágrafo. A tag 
+                <strong>&lt;p&gt;</strong> é usada para criar blocos de texto, 
+                enquanto outras tags como <strong>&lt;mark&gt;</strong>, 
+                <strong>&lt;small&gt;</strong>, <strong>&lt;i&gt;</strong>, 
+                <strong>&lt;u&gt;</strong> e <strong>&lt;strong&gt;</strong> 
+                são usadas para dar ênfase, alterar o estilo ou destacar 
+                partes específicas. Também é possível mostrar texto riscado com 
+                <strong>&lt;del&gt;</strong>, aplicar cores com 
+                <strong>&lt;font&gt;</strong> (mesmo sendo obsoleta), e 
+                explicar siglas com <strong>&lt;abbr&gt;</strong>. Tudo isso 
+                contribui para uma melhor apresentação do conteúdo e maior 
+                acessibilidade.
+            </p>
+
+            <p>Texto normal com <mark>marcações</mark>, <small>letras pequenas</small>, <i>itálico</i>, <u>sublinhado</u> e <strong>negrito</strong>.</p>
+            <p>Exemplo com <del>texto removido</del> e <font color="blue">texto colorido com &lt;font&gt;</font>.</p>
+            <p>Sigla com <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+        </article>
+    </section>
+
+    <br/>
+
+    <section id="listas">
+        <h2>Listas Ordenadas e Não Ordenadas</h2>
+        <article>
+            <p>As listas em HTML são usadas para organizar informações de forma estruturada. 
+               A tag <strong>&lt;ol&gt;</strong> cria uma lista ordenada, ou seja, com itens 
+               numerados automaticamente, ideal para representar sequências ou passos. Já 
+               a tag <strong>&lt;ul&gt;</strong> cria uma lista não ordenada, onde os 
+               itens aparecem com marcadores simples, sendo útil para listas de tópicos ou 
+               enumerações livres. Os itens de ambas as listas são definidos com a tag 
+               <strong>&lt;li&gt;</strong>, que representa cada elemento individual da 
+               lista.
+            </p>
+
+            <h3>Lista Ordenada:</h3>
+            <ol>
+            <li>Primeiro item</li>
+            <li>Segundo item</li>
+            <li>Terceiro item</li>
+            </ol>
+
+            <h3>Lista Não Ordenada:</h3>
+            <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+            </ul>
+        </article>
+    </section>
+
+    <br />
+
+    <section id="links">
+        <h2>Links com &lt;a&gt;</h2>
+        <article>
+            <p>A tag <strong>&lt;a&gt;</strong>, conhecida como "anchor" (âncora), 
+               é utilizada para criar hiperlinks em HTML. Com ela, é possível 
+               direcionar o usuário para outras páginas, sites, seções dentro da 
+               própria página ou até iniciar downloads. O atributo <strong>href</strong> 
+               define o destino do link, e o atributo <strong>target="_blank"</strong> 
+               faz com que o link seja aberto em uma nova aba, melhorando a navegação 
+               sem sair da página atual.
+            </p>
+
+            <p>Você pode acessar o <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element" target="_blank">MDN Web Docs</a> para mais informações sobre HTML.</p>
+        </article>
+    </section>
+
+    <br />
+
+    <section id="linha-horizontal">
+        <h2>Separando conteúdo com &lt;hr&gt;</h2>
+        <article>
+            <p>A tag <strong>&lt;hr&gt;</strong> é usada para criar uma linha 
+                horizontal na página, servindo como uma separação visual entre 
+                blocos de conteúdo. Ela é útil para indicar mudanças de 
+                assunto, transições entre seções ou apenas para melhorar a 
+                estética e organização da página. É uma tag autossuficiente, 
+                ou seja, não precisa de uma tag de fechamento.
+            </p>
+
+            <p>Essa linha abaixo separa visualmente o conteúdo:</p>
+            <hr>
+        </article>
+    </section>
+
+
+    <br />
+
+    <section id="subsup">
+        <h2>Textos com &lt;sub&gt; e &lt;sup&gt;</h2>
+        <article>
+            <p>As tags <strong>&lt;sub&gt;</strong> e <strong>&lt;sup&gt;</strong> 
+                são usadas para formatar textos como subíndices e expoentes, 
+                respectivamente. A tag <strong>&lt;sub&gt;</strong> posiciona o 
+                texto ligeiramente abaixo da linha base, sendo útil em fórmulas 
+                químicas como H<sub>2</sub>O. Já a tag <strong>&lt;sup&gt;</strong> 
+                posiciona o texto acima da linha base, ideal para indicar potências 
+                matemáticas como 10<sup>2</sup>. Essas formatações são especialmente 
+                úteis em contextos científicos e acadêmicos.
+            </p>
+
+            <p>Exemplo de subíndice: H<sub>2</sub>O</p>
+            <p>Exemplo de expoente: 10<sup>2</sup> = 100</p>
+        </article>
+    </section>
+
+    <br />
+
+    <section id="citacoes">
+        <h2>Citações com &lt;blockquote&gt;</h2>
+        <article>
+            <p>A tag <strong>&lt;blockquote&gt;</strong> é utilizada para 
+                representar citações em bloco, geralmente de outras fontes. É 
+                ideal para destacar trechos longos de textos que foram retirados 
+                de livros, sites ou autores específicos. O atributo 
+                <strong>cite</strong> pode ser usado para indicar a fonte da 
+                citação, tornando o conteúdo mais confiável e organizado.
+            </p>
+
+            <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+            "O elemento blockquote representa uma seção que é citada de outra fonte."
+            </blockquote>
+        </article>
+    </section>
+
+    <br />
+
+    <section id="estrutura">
+        <h2>Estrutura com &lt;main&gt;, &lt;section&gt; e &lt;article&gt;</h2>
+        <article>
+            <p>As tags <strong>&lt;main&gt;</strong>, <strong>&lt;section&gt;</strong> 
+                e <strong>&lt;article&gt;</strong> são elementos semânticos importantes 
+                para organizar o conteúdo em uma página HTML. A tag 
+                <strong>&lt;main&gt;</strong> envolve o conteúdo principal que é único 
+                na página, ajudando navegadores e leitores de tela a entenderem o foco 
+                principal. A tag <strong>&lt;section&gt;</strong> define seções 
+                temáticas do conteúdo, agrupando partes relacionadas, enquanto a tag 
+                <strong>&lt;article&gt;</strong> representa conteúdos independentes, 
+                como postagens de blog, notícias ou comentários, que podem ser 
+                reutilizados ou distribuídos separadamente.
+            </p>
+        </article>
+    </section>
+
+    <br />
+
+    <section id="midia">
+        <h2>Tags de Mídia</h2>
+        <article>
+            <p>As tags de mídia em HTML permitem incorporar diferentes tipos de 
+                conteúdo multimídia diretamente na página, enriquecendo a 
+                experiência do usuário. A tag <strong>&lt;img&gt;</strong> é 
+                usada para exibir imagens, enquanto as tags 
+                <strong>&lt;audio&gt;</strong> e <strong>&lt;video&gt;</strong> 
+                possibilitam a inserção de áudio e vídeo, respectivamente. 
+                Estas últimas oferecem controles nativos para reprodução, 
+                pausa e volume, e suportam múltiplos formatos via elementos 
+                <strong>&lt;source&gt;</strong>. Caso o navegador não suporte 
+                esses elementos, é possível exibir uma mensagem alternativa.
+            </p>
+
+            <p>A tag <strong>&lt;iframe&gt;</strong> permite incorporar conteúdo de 
+                outras páginas web, como vídeos do YouTube, mapas do Google Maps ou 
+                até documentos externos. Ela cria um quadro embutido na página e é 
+                muito usada para exibir recursos interativos hospedados em outros sites.</p>
+
+            <p>Imagem:</p>
+            <img src="https://i.pinimg.com/236x/26/55/86/265586d746045d33acc4b3e97739d3ce.jpg" alt="Um gato branco com manchas cinzas, em pé com as patas dianteiras apoiadas em uma cadeira, segura o cabo do carregador do notebook com uma expressão séria. A imagem contém texto em espanhol dizendo: 'SOLO TE LO VOY A DECIR UNA VEZ' na parte superior, e 'DAME COMIDA AHORA' na parte inferior, que em português significa 'Só vou te dizer uma vez: me dê comida agora'.">
+
+            <p>Áudio:</p>
+            <audio controls>
+                <source src="./buttercup.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+
+            <p>Vídeo:</p>
+            <video width="320" height="240" controls autoplay>
+                <source src="./cat-meme.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+
+            <p>Conteúdo incorporado com <code>&lt;iframe&gt;</code>:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d37743.993441004866!2d-35.25331572946747!3d-6.083646304901908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1749663776401!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+    </section>
+
+    <br />
+
+    <section id="extras">
+        <h2>Outras Tags Sugeridas</h2>
+        <article>
+            <p>Além das tags básicas, existem outras que ainda são úteis ou 
+                importantes para conhecer, mesmo que algumas estejam obsoletas. 
+                A tag <strong>&lt;abbr&gt;</strong> é usada para indicar siglas 
+                ou abreviações, exibindo uma descrição ao passar o mouse. A tag 
+                <strong>&lt;font&gt;</strong>, embora considerada obsoleta, 
+                ainda pode ser encontrada para alterar cores e estilos de texto, 
+                mas recomenda-se usar CSS para isso. Já a tag 
+                <strong>&lt;del&gt;</strong> indica que um texto foi removido ou 
+                alterado, sendo útil em documentos que passam por revisões.
+            </p>
+
+            <p><abbr title="Cascading Style Sheets">CSS</abbr> é usado para estilizar páginas HTML.</p>
+            <p>O uso da tag <font color="red">font</font> é considerado obsoleto, mas ainda funciona em alguns navegadores.</p>
+            <p>Texto com <del>informação removida</del> pode indicar alterações em documentos.</p>
+        </article>
+    </section>
+
+    <br />
+
+    <section id="referencias">
+      <h2>Referências</h2>
+      <article>
+        <ul>
+            <li><a href="https://www.dio.me/bootcamp#content" target="_blank">Bootcamp da DIO - (Aula de HTML)</a></li>
+          <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+          <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+          <li><a href="https://html.com/" target="_blank">HTML.com - Guias e Dicas</a></li>
+        </ul>
+        <p><small>Você pode substituir esses links por suas fontes reais.</small></p>
+      </article>
+    </section>
+
+    <br />
+
+    <small><a href="#">(Início)</a></small>
+  </main>
+
+  <footer>
+    <hr>
+    <p><small>Desenvolvido para o Desafio de Projeto HTML - 2025</small></p>
+  </footer>
+
+</body>
+</html>
